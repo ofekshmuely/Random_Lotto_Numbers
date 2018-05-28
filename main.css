@@ -1,0 +1,52 @@
+
+
+body{
+    background-color:#EFDE0A!important;
+    height: 100%;
+    text-align: center;
+  }
+
+  
+  #dots {
+      position: absolute;
+    z-index: -5;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  
+      background-image: url('https://image.ibb.co/e8CR1T/dot.png');
+  }
+
+
+  
+  h1 {
+    margin: 0;
+    padding: 30px 0;
+    font: 44px "Arial";
+    color: white;
+    font-family: 'Secular One', sans-serif!important;
+    
+  }
+  
+  section {
+    margin-top: -1vw;
+   /* background-image: linear-gradient(135deg, red, red);*/
+    height:300px;
+  
+  }
+  
+  body{
+    background-image: linear-gradient(135deg, #efde0a, #efde0a);
+  }
+  
+
+
+
+  h2{
+    font-family: 'Secular One', sans-serif!important;
+
+  }
+
+
+ 
