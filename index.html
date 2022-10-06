@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,67 +13,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
-<body>
-    
-      
-<div id="dots"></div>
 
-<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+<body onload="myFunction()">
 
 
-  
-  
-      
-<div class="container" style="width: 100%">
-    <div class="jumbotron" style="background-color:#122476">
-      <h1 style="color: white">מספרים ללוטו</h1> 
+    <div id="dots"></div>
 
-  </div>
+    <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
 
 
 
+
+
+    <div class="container background" style="width: 100%">
+        <div class="jumbotron" style="background-color:#122476">
+            <h1 class="glow" style="color: white">מספרים ללוטו</h1>
+
+
+            <!-- animated background balls -->
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
 
         <div>
-                <h1 class="centered mx-auto" style="color:blue;display:inline;"> ששת המספרים הנבחרים הם </h1> 
-    </div>
-    <h1 id="out"></h1>
-    <h2 >המספר החזק הוא</h2>
-    <h1 id="goStrong" style="display: inline"></h1>
+            <h1 class=" "> ששת המספרים הנבחרים הם </h1>
+        </div>
+        <h1 id="out"></h1>
+        <h2>המספר החזק הוא</h2>
+        <h1 id="goStrong"></h1>
 
 
-    <script src="main.js"></script>
-  
-
-
+        <script src="main.js"></script>
 
 
 
+        <button class="btn btn-secondary" style="color: yellow;background-color: black" onclick="myFunction()">החלף
+            מספרים</button>
 
-
-        <!-- strong num script -->
         <script>
-            document.getElementById("goStrong").innerHTML =
-            Math.floor(Math.random() * 7 +1);
-            </script>
-            
-            <br><br>
 
-            <button class="btn btn-secondary" style="color: yellow;background-color: black" onclick="myFunction()">החלף מספרים</button>
-
-            <script>
-            function myFunction() {
-                location.reload();
-            }
-            </script>
+        </script>
 
 
 
@@ -83,6 +104,5 @@
 
 
 </body>
+
 </html>
-
-
